@@ -1,8 +1,8 @@
 ConfigParser
 ============
 
-PythonのConfigParserをC#向けにコピーしたもの
-若干細かい動作は異なります。
+PythonのConfigParserをC#向けにコピーしたものです。
+細かい動作は若干異なっています。
 
 INIファイルを読み込む方法としては[DllImport("kernel32")]を使う方法もあるようですが
 このコードではdllは使わず、ConfigParserを利用しています。
